@@ -1,0 +1,81 @@
+body {
+    margin:0;
+  background: url(img/killzone.jpg);
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 165px;
+}
+.logo{
+    font-family: 'Pacifico';
+    font-size: 45px;
+}
+header a{ 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #18191F;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+a {
+ display: inline-block; 
+  color: brown;
+  background-color: aqua;
+  text-decoration: none;
+  padding: 12px 32px;
+  border-radius: 5px;
+
+}
+
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:673px;
+    padding: 0 50px 0 165px;
+    position: relative;
+}
+
+.text1 h1{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #18191F;
+    margin:0;
+}
+.text1 p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.text1 a{
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+    padding: 12px 32px;
+    background-color: #FFAD00;
+    border-radius: 6px;
+}
+
+.section1 img{
+    width:670px;
+    height:419px;
+}
+
+figure{
+    background-color: blanchedalmond;
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+width:670px;
+    height:419px;
+}
